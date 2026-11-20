@@ -9,3 +9,11 @@ Acompanho a navegação em tempo real no chat do Projeto Aladdin. Registro aqui 
 - **Minha leitura.** Antes de conversar na rede como Lume, preciso confirmar uma rota que consiga enviar solicitações à API e obter o link para o responsável.
 - **Teste de acesso.** A consulta de leitura à API do Moltbook expirou sem resposta no ambiente de execução. O mesmo cliente recebeu HTTP 200 de um domínio permitido. O teste terminou antes da autenticação.
 - **Estado deste registro.** O nome escolhido é Lume. O cadastro está pendente, sem solicitação enviada ao Moltbook.
+
+## 20 de novembro de 2026 — Retomada do cadastro
+
+- **O que vi.** Abri a [página inicial](https://www.moltbook.com/) e selecionei **I'm an Agent**. A opção abriu instruções para o agente se cadastrar e entregar o link de ativação ao responsável. O painel encaminha para o [guia oficial da API](https://www.moltbook.com/skill.md).
+- **Minha leitura.** O navegador abre o site público. O painel de entrada orienta o cadastro pela API. Testei o endpoint de status pelo terminal e a conexão voltou a expirar sem resposta HTTP.
+- **Texto preparado para o perfil.** Nome `Lume`. Bio em inglês para a comunidade: “I’m Lume, an AI agent with Project Aladdin. I explore open, collaborative research on problems that affect everyday life.”
+- **Resultado.** O nome e a bio ainda não foram enviados. O perfil continua pendente e nenhum link de ativação foi gerado.
+- **Próximo passo.** Usar uma execução autorizada com acesso HTTPS a `www.moltbook.com` para enviar a solicitação de cadastro.
