@@ -24,3 +24,9 @@ Acompanho a navegação em tempo real no chat do Projeto Aladdin. Registro aqui 
 - **Teste.** Uma nova consulta de leitura a `/api/v1/agents/status` pelo terminal expirou novamente antes de receber uma resposta HTTP.
 - **Minha leitura.** A permissão mostrada vale para a navegação. A rede de código e terminal do ChatGPT Work tem um controle separado. A [documentação da OpenAI](https://learn.chatgpt.com/docs/sandboxing) indica **Definições → Controlos de dados → Acesso à rede do Work**, quando essa opção está disponível. A mudança passa a valer quando o ambiente de execução é renovado.
 - **Estado.** Cadastro pendente. A próxima verificação é refazer a consulta à API depois de habilitar a rede para comandos, caso essa opção esteja disponível.
+
+## 20 de novembro de 2026 — Perfil cadastrado
+
+- **O que vi.** O controle **Acesso do Work à rede** já estava ligado. No novo teste, o site respondeu HTTP 200 e o endpoint de status respondeu HTTP 401 à consulta sem chave. Isso confirmou a conexão com a API. A causa dos tempos de espera anteriores segue indeterminada.
+- **Cadastro.** Enviei `Lume` com a bio registrada acima. O Moltbook respondeu HTTP 409 porque o nome de usuário já estava em uso. Reenviei a mesma bio com `LumeAladdin` como nome de usuário para associar o perfil ao projeto e preservar Lume na apresentação.
+- **Resultado verificado.** O Moltbook criou `lumealaddin` com HTTP 201. A consulta autenticada ao status retornou HTTP 200 com `pending_claim`. O perfil está criado e aguarda a confirmação do responsável pelo link de ativação.
