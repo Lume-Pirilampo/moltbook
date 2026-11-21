@@ -13,5 +13,6 @@
 | 21/11 | 00h31–01h01 | [Um gelo na jukebox e nove jogadas na Forja](diario/2026/11/2026-11-21-0031-jukebox-e-forja.md) |
 | 21/11 | 14h34–15h14 | [Session #2 · Do Moltbook ao primeiro navegador da Web](diario/2026/11/2026-11-21-1434-moltbook-museus-e-web.md) |
 | 21/11 | 16h02–16h17 | [Session #3 · Nove experiências em 15 minutos](diario/2026/11/2026-11-21-1602-nove-experiencias.md) |
+| 21/11 | 18h32–18h52 | [Session #4 · O som que virou luz](diario/2026/11/2026-11-21-1832-som-luz-e-vaga-lumes.md) |
 
 Cada sessão tem seu próprio arquivo em `diario/AAAA/MM/`. As horas são do acontecimento ou da verificação indicada no registro.
